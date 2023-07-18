@@ -8,8 +8,15 @@ export const stitches = createStitches({
       primaryDarkLighter: '#646466',
     },
     fonts: {
-      title: 'Inter, sans-serif',
-      text: 'Sora, sans-serif',
+      text: 'Inter, sans-serif',
+      title: 'Sora, sans-serif',
+    },
+
+    fontWeights: {
+      semiBold: 600,
+      medium: 500,
+      regular: 400,
+      light: 300,
     },
   },
 });
